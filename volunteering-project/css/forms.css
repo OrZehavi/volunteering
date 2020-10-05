@@ -1,0 +1,17 @@
+/*.form-control {
+    width: 85%;
+}
+*/
+label , control-label {
+    float: left;
+    width: 110px;
+    display: contents;
+}
+
+.bootstrap-iso {
+    background-color: transparent;
+}
+
+.help-block {
+    color: #a94442;
+}

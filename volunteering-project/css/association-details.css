@@ -1,0 +1,42 @@
+.association-details-header {
+  height: 70px;
+  background-color: white;
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #dadada;
+}
+
+.wrapper {
+  display: block;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: block;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.association-data-wrapper {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.association-data-title {
+    font-weight: 600;
+    padding: 0 20px;
+
+}
+
+.btn {
+    position: absolute;
+    margin-left: 20px;
+    bottom: 50px;
+    height: 50px;
+}
+.association-data-content {
+    
+}

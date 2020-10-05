@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    height: 100%;
+    margin-bottom: 60px;
+}
+
+#wrapper {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#internalWrapper {
+    margin: auto;
+    text-align: center;
+}
+
+#logo {
+    text-decoration: none;
+    border-style: solid;
+    font-size: x-large;
+    font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
+    font-weight: bold;
+    color: #347ab7;
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: floralwhite;
+}
+
+p {
+	font-size: 20px;
+}
+
+nav {
+	font-size: 15px;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    font-size: 17px;
+}
+
+main {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+
+#logoImg{
+    width: 190px;
+    float: left;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #e2e2e2;
+}
+
+.navbar-inverse {
+    background-color: #eaeaea;
+    border-color: transparent;
+}
+
+.menu-link {
+    margin: 10px;
+}
+
+.navbar-inverse .navbar-toggle { 
+    background-color: transparent;
+    border-color: transparent;
+    margin: 20px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #9d9d9d;
+    font-weight: 900;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #347ab7;
+}
+
+.icon-bar {
+    color: #347ab7;
+}
+
+.current-menu-item {
+    color: #347ab7;
+}

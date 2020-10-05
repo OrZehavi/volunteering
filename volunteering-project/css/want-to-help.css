@@ -1,0 +1,21 @@
+
+
+.btn {
+    width: 100px;
+}
+
+.filter-section {
+    display: inline-flex;
+}
+
+.activity-select {
+    padding-left: 22px;
+}
+
+#map {
+    height: 100vh;
+}
+
+.btn-default {
+    font-size: 25px;
+}

@@ -1,0 +1,117 @@
+.content { 
+    position: absolute;
+    margin-top: 0;
+    padding-top: 70px;
+    top: 0;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 80vw;
+    margin:auto;
+    background-color: rgb(199 226 236 / 62%);
+    text-align: center;
+}
+
+.nav-raw {
+    font-size: 22px;
+}
+
+.center_div {
+    margin: 0 auto;
+    width: 270px;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.scrolling-div {
+    max-height: calc(100% - 100px);
+    overflow-y: auto;
+}
+
+.tableBodyScroll {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/*table, td, th {*/
+/*    border-collapse: collapse;*/
+/*    border: 1px solid #777;*/
+/*}*/
+
+table {
+    table-layout:fixed;
+}
+
+th {
+    padding: 5px 10px;
+    background: #ddd;
+    width: 150px; 
+    text-align: center;
+}
+
+td {
+    padding: 5px 10px;
+    width: 150px; 
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.active-button {
+    color: #0568ae;
+    font-weight: 900;
+    border-bottom: 4px solid #0568ae !important;
+}
+
+.button-reset {
+    box-shadow: none;
+    border: 0;
+    outline: none;
+}
+
+ .navigation-button {
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+    border: 0;
+    text-align: center;
+    font-weight: 600;
+    border-color: white;
+    -webkit-tap-highlight-color: transparent;
+    height: 60px;
+    background-color: white;
+    z-index: 1000;
+    font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
+    font-size: 25px;
+}
+
+nav {
+    font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.btn-default {
+        color: #337ab7;
+    /* background-color: #337ab7; */
+    border-color: #2e6da4;
+    width: 270px;
+    height: 50px;
+    font-size: 31px;
+    border: 2px;
+    font-weight: 600;
+    font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
+}

@@ -1,0 +1,29 @@
+.phraseSection {
+	font-family: 'sans-serif';
+}
+
+#pmain {
+  color: black;
+  font-size: xx-large;
+  text-align: center;
+  font-style: italic;
+  font-weight:bold;
+}
+
+#pmain2 {
+color: black;
+  font-size: x-large;
+  text-align: center;
+  position: relative;
+  top: 42%;
+  font-style: normal;
+}
+
+.main-page-content {
+    background-image: url('/volunteering-project/media/images/together.jpg');
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100%;
+}
