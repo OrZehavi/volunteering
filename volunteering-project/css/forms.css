@@ -15,3 +15,8 @@ label , control-label {
 .help-block {
     color: #a94442;
 }
+
+label {
+    color:#347ab7;
+    font-weight: 600;
+}

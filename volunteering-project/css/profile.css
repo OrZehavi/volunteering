@@ -78,17 +78,25 @@ form label {
     height: 60px;
 }
 
-/*.title {*/
-/*    background: aliceblue;*/
-/*    width: 100%;*/
-/*    height: 50px;*/
-/*    margin: auto;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
+.panel-body {
+    width: 500px;
+    margin:auto;
+}
 
-/*.my-subscription-background {*/
-/*        background: aliceblue;*/
+@media only screen and (max-width: 600px) {
+  .panel-body {
+    width: 300px;
+  }
+}
 
-/*}*/
+@media only screen and (max-width: 380px) {
+  .panel-body {
+    width: 250px;
+  }
+}
+
+.control-label {
+    color:#347ab7;
+    font-weight: 600;
+}
+

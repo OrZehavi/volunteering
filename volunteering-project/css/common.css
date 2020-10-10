@@ -9,7 +9,7 @@
     z-index: -1;
     width: 80vw;
     margin:auto;
-    background-color: rgb(199 226 236 / 62%);
+    background-color: white;
     text-align: center;
 }
 
@@ -19,9 +19,20 @@
 
 .center_div {
     margin: 0 auto;
-    width: 270px;
+    width: 500px;
 }
 
+@media only screen and (max-width: 600px) {
+  .center_div {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .center_div {
+    width: 250px;
+  }
+}
 .form-group {
     text-align: center;
 }
@@ -55,6 +66,8 @@ th {
 td {
     padding: 5px 10px;
     width: 150px; 
+    text-align: center;
+
 }
 
 tr:hover {
@@ -102,11 +115,12 @@ h1 {
     font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
     font-weight: 700;
     font-size: 45px;
+    color: #347ab7;
 }
 
 .btn-default {
-        color: #337ab7;
-    /* background-color: #337ab7; */
+    color: #337ab7;
+    background-color: #dddddd;
     border-color: #2e6da4;
     width: 270px;
     height: 50px;
@@ -115,3 +129,19 @@ h1 {
     font-weight: 600;
     font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
 }
+
+.volunteering-details-header {
+  height: 70px;
+  background-color: #b3ceea;
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #dadada;
+}
+
+.control-label {
+    color:#347ab7;
+    font-weight: 600;
+}
+
