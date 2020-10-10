@@ -19,3 +19,44 @@
 .btn-default {
     font-size: 25px;
 }
+
+.volunteerings-scrolling-div {
+    max-height: 700px;
+    overflow-y: auto;
+}
+
+@media only screen and (max-height: 1000px) {
+  .volunteerings-scrolling-div {
+    max-height: 700px;
+  }
+}
+
+@media only screen and (max-height: 850px) {
+  .volunteerings-scrolling-div {
+    max-height: 570px;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .volunteerings-scrolling-div {
+    max-height: 500px;
+  }
+}
+
+@media only screen and (max-height: 750px) {
+  .volunteerings-scrolling-div {
+    max-height: 450px;
+  }
+}
+
+@media only screen and (max-height: 680px) {
+  .volunteerings-scrolling-div {
+    max-height: 410px;
+  }
+}
+
+@media only screen and (max-height: 570px) {
+  .volunteerings-scrolling-div {
+    max-height: 280px;
+  }
+}

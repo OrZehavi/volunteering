@@ -23,8 +23,8 @@ $(document).ready(function() {
 function userLoggedOut() {
     document.getElementById("login-register-button").style.display = "inline-block";
     document.getElementById("user-profile-button").style.display = "none";
-
     document.getElementById("logout-button").style.display = "none";
+    document.getElementById("admin-page").style.display = "none";
 }
 function switchMenuLinks () {
     if (sessionStorage.getItem("loggedin") == "1") {

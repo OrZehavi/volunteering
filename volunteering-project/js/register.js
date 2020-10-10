@@ -1,20 +1,5 @@
 $( document ).ready(function() {
-    
-
-    if (sessionStorage.getItem("is_organization_register") === "true") {
-        $('#isOrganizationCheckbox').attr("checked", true);
-        viewOrganizationFields();
-    } else {
-        $('#isOrganizationCheckbox').attr("checked",false);
-    }
-    
-    $('#isOrganizationCheckbox').change(function () {
-        if ($(this).is(':checked')) {
-            viewOrganizationFields();
-        } else {
-            viewUserFields();
-        }
-    });
+    changeUserTypeForm('user');    
 });
 
 function viewOrganizationFields() {
@@ -24,13 +9,12 @@ function viewOrganizationFields() {
     let driverLic = document.getElementById('driver-lic-chk');
     let selectPopulation = document.getElementById('select-population');
     let organizationNumber = document.getElementById('organization-number');
-    let phoneNumber = document.getElementById('phone');
+    let phoneNumber = document.getElementById('phone-number');
     let locationAutocomplete = document.getElementById('location-autocomplete');
     let foundationYear = document.getElementById('organization-foundation-year');
     let description = document.getElementById('description');
     let registrarForm = document.getElementById('organization-registrat-form');
     let webSite = document.getElementById('association-website');
-
 
     sessionStorage.setItem("is_organization_register", true);
     selectActivity.style.display = "block";
@@ -61,8 +45,6 @@ function viewUserFields() {
     let registrarForm = document.getElementById('organization-registrat-form');
     let webSite = document.getElementById('association-website');
 
-
-
     sessionStorage.setItem("is_organization_register", false);
     selectActivity.style.display = "none";
     lastName.style.display = "block";
@@ -76,5 +58,27 @@ function viewUserFields() {
     description.style.display = "block";
     registrarForm.style.display ="none";
     webSite.style.display ="none";
-
 }
+
+function changeUserTypeForm(newSelection) {
+    let userBtn = document.getElementById("create-user-btn");
+    let associationBtn = document.getElementById("create-association-btn");
+    let nameLabel = document.getElementById("name-label");
+    let roleInput = document.getElementById("role-input");
+    
+    if (newSelection === 'user') {
+        nameLabel.innerHTML = 'First Name';
+        userBtn.style.background = "#2e6da4";
+        associationBtn.style.background = "#337ab7";
+        roleInput.setAttribute('value', 'user');
+        viewUserFields();
+
+    } else {
+        nameLabel.innerHTML = 'Name';
+        userBtn.style.background = "#337ab7";
+        associationBtn.style.background = "#2e6da4";
+        roleInput.setAttribute('value', 'association');
+        viewOrganizationFields();
+    }
+}
+
